@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F964D3AD2163D6F1001E9617 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F964D3AC2163D6F1001E9617 /* UITextFieldExtension.swift */; };
 		F9D0A522216343C500D9CE39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D0A521216343C500D9CE39 /* AppDelegate.swift */; };
 		F9D0A524216343C500D9CE39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D0A523216343C500D9CE39 /* ViewController.swift */; };
 		F9D0A527216343C500D9CE39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D0A525216343C500D9CE39 /* Main.storyboard */; };
 		F9D0A529216343C600D9CE39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D0A528216343C600D9CE39 /* Assets.xcassets */; };
 		F9D0A52C216343C600D9CE39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D0A52A216343C600D9CE39 /* LaunchScreen.storyboard */; };
+		F9D0A5342163444600D9CE39 /* TopicTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D0A5332163444600D9CE39 /* TopicTabBarViewController.swift */; };
+		F9D0A5362163490F00D9CE39 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D0A5352163490F00D9CE39 /* CalculateViewController.swift */; };
+		F9D0A5382163491F00D9CE39 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D0A5372163491F00D9CE39 /* RestaurantViewController.swift */; };
+		F9D0A53A2163492A00D9CE39 /* TaxiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D0A5392163492A00D9CE39 /* TaxiViewController.swift */; };
+		F9D0A53C2163493300D9CE39 /* VietnameseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D0A53B2163493300D9CE39 /* VietnameseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F964D3AC2163D6F1001E9617 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		F9D0A51E216343C500D9CE39 /* IntoroduceHanoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntoroduceHanoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D0A521216343C500D9CE39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9D0A523216343C500D9CE39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		F9D0A528216343C600D9CE39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9D0A52B216343C600D9CE39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9D0A52D216343C600D9CE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D0A5332163444600D9CE39 /* TopicTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTabBarViewController.swift; sourceTree = "<group>"; };
+		F9D0A5352163490F00D9CE39 /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
+		F9D0A5372163491F00D9CE39 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		F9D0A5392163492A00D9CE39 /* TaxiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiViewController.swift; sourceTree = "<group>"; };
+		F9D0A53B2163493300D9CE39 /* VietnameseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VietnameseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F964D3AB2163D67E001E9617 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F964D3AC2163D6F1001E9617 /* UITextFieldExtension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		F9D0A515216343C500D9CE39 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +76,26 @@
 			children = (
 				F9D0A521216343C500D9CE39 /* AppDelegate.swift */,
 				F9D0A523216343C500D9CE39 /* ViewController.swift */,
+				F964D3AB2163D67E001E9617 /* Helper */,
+				F9D0A53D2163494300D9CE39 /* Topic */,
 				F9D0A525216343C500D9CE39 /* Main.storyboard */,
 				F9D0A528216343C600D9CE39 /* Assets.xcassets */,
 				F9D0A52A216343C600D9CE39 /* LaunchScreen.storyboard */,
 				F9D0A52D216343C600D9CE39 /* Info.plist */,
 			);
 			path = IntoroduceHanoi;
+			sourceTree = "<group>";
+		};
+		F9D0A53D2163494300D9CE39 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				F9D0A5332163444600D9CE39 /* TopicTabBarViewController.swift */,
+				F9D0A5372163491F00D9CE39 /* RestaurantViewController.swift */,
+				F9D0A5352163490F00D9CE39 /* CalculateViewController.swift */,
+				F9D0A5392163492A00D9CE39 /* TaxiViewController.swift */,
+				F9D0A53B2163493300D9CE39 /* VietnameseViewController.swift */,
+			);
+			path = Topic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D0A53A2163492A00D9CE39 /* TaxiViewController.swift in Sources */,
+				F964D3AD2163D6F1001E9617 /* UITextFieldExtension.swift in Sources */,
 				F9D0A524216343C500D9CE39 /* ViewController.swift in Sources */,
+				F9D0A5382163491F00D9CE39 /* RestaurantViewController.swift in Sources */,
+				F9D0A5342163444600D9CE39 /* TopicTabBarViewController.swift in Sources */,
 				F9D0A522216343C500D9CE39 /* AppDelegate.swift in Sources */,
+				F9D0A53C2163493300D9CE39 /* VietnameseViewController.swift in Sources */,
+				F9D0A5362163490F00D9CE39 /* CalculateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
